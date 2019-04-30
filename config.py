@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 
 load_dotenv()
-
+# Load environment variables
 host =  os.getenv("HOST")
 region = os.getenv("REGION") 
 service = os.getenv("SERVICE") 
@@ -20,5 +20,7 @@ es = Elasticsearch(
         verify_certs = True,
         connection_class = RequestsHttpConnection
     )
+
+# This will be used in other parts of the project for ElaticSearch queries
 def elastic():
     return es
