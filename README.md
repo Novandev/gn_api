@@ -39,7 +39,7 @@ This package requires Python 3 to be installed
 1. Clone the repo
 
 ```
-git clone https://github.com/Novandev/gn_api/
+git clone https://github.com/Novandev/gn_api.git
 ```
 
 2. Install dependencies from project root folder (Please utilize virtualenv, or pipenv)
