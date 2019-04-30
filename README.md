@@ -48,7 +48,19 @@ git clone https://github.com/Novandev/gn_api.git
 pip install -r requirements.txt
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+3. Run the project
+```
+EXPORT FLASK_RUN=app.py
+```
+or
+
+```
+
+python3 app.py
+```
+The server by default will run on port 5000
+
+FOr post examples refer to: https://github.com/Novandev/gn_api/wiki/All-API-Endpoints
 
 ## Running the tests
 
