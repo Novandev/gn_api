@@ -10,8 +10,9 @@ load_dotenv()
 host =  os.getenv("HOST")
 region = os.getenv("REGION") 
 service = os.getenv("SERVICE") 
-credentials = boto3.Session().get_credentials()
-awsauth = AWS4Auth(credentials.access_key, credentials.secret_key, region, service)
+access_key = os.getenv("ACCESS")
+secret_key = os.getenv("SECRET")
+awsauth = AWS4Auth(access_key, secret_key, region, service)
 es = Elasticsearch(
         hosts = [{'host': host, 'port': 443}],
         http_auth = awsauth,
