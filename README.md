@@ -86,5 +86,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* [https://cardsagainsthumanity.com/] Cards Against Humanity
-
+* [https://www.gifnote.com/] - Gifnote
